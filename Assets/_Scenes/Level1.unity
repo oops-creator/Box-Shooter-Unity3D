@@ -1866,8 +1866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  canBeatLevel: 0
-  beatLevelScore: 0
+  canBeatLevel: 1
+  beatLevelScore: 30
   startTime: 15
   mainScoreDisplay: {fileID: 1236409494}
   mainTimerDisplay: {fileID: 633796567}
@@ -1877,7 +1877,7 @@ MonoBehaviour:
   playAgainButtons: {fileID: 1042330771}
   playAgainLevelToLoad: Level1
   nextLevelButtons: {fileID: 0}
-  nextLevelToLoad: 
+  nextLevelToLoad: "Level2\x13"
 --- !u!4 &2069614618
 Transform:
   m_ObjectHideFlags: 0
